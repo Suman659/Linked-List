@@ -128,29 +128,15 @@ void printList(Node *node)
 
 int main()
 {
-   
-    
-    Node* head = NULL;
-     
-    
+  Node* head = NULL;
     append(&head, 2);
-     
-   
     push(&head, 7);
-     
-    
     push(&head, 3);
-     
-    
     append(&head, 4);
-     
-   
-    insertAfter(head->next, 6);
-     
+    insertAfter(head->next, 6); 
     cout<<"Created Linked list is: ";
     printList(head);
-     
-    return 0;
+  return 0;
 }
 
 //Output//
