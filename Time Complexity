@@ -1,0 +1,18 @@
+Linked List Complexity:
+
+T͟i͟m͟e͟ C͟o͟m͟p͟l͟e͟x͟i͟t͟y:
+
+S͟e͟a͟r͟c͟h͟;
+Best Case: Ω(1)
+Worst Case: O(N) 
+Average Case: Θ(N)
+
+I͟n͟s͟e͟r͟t͟;
+Best Case: Ω(1)
+Worst Case: O(1)
+Average Case: Θ(1)
+
+D̲e̲l̲e̲t̲e̲;
+Best Case: Ω(1)
+Worst Case: O(1)
+Average Case: Θ(1)
