@@ -34,6 +34,10 @@ while(temp->next != NULL){
 
 temp->next = newNode;
 
+//Output//
+
+//Created Linked list is:  1 7 8 6 4
+
 
 //Example//
 
@@ -129,22 +133,26 @@ int main()
     Node* head = NULL;
      
     
-    append(&head, 6);
+    append(&head, 2);
      
    
     push(&head, 7);
      
     
-    push(&head, 1);
+    push(&head, 3);
      
     
     append(&head, 4);
      
    
-    insertAfter(head->next, 8);
+    insertAfter(head->next, 6);
      
     cout<<"Created Linked list is: ";
     printList(head);
      
     return 0;
 }
+
+//Output//
+
+//Created Linked list is:  2 7 3 4 6
